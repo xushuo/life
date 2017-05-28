@@ -1,3 +1,10 @@
 <h1>
   {{title}}
 </h1>
+<app-life [name]="title"  #lifeCp >
+  <div class="head">111111111</div>
+  <div >2222222222</div>
+  <div class="foot">33333</div>
+
+</app-life>
+<button type="button" (click)="lifeCp.logIt('ffffffffff')">view钩子</button>
